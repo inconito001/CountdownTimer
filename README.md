@@ -19,7 +19,21 @@ How it works ?
 		timer.scheduleTimer();
 	}
   
-  
+Or
+
+	public static void main(String... args) {
+		CountdownTimer timer = new CountdownTimer(10, () -> before(), () -> after(), (t) -> System.out.println("Time every seconds = " + t.getSecondsLeft()));
+		
+		timer.scheduleTimer();
+	}
+	
+	public static void before() {
+		System.out.println("Before");
+	}
+	
+	public static void after() {
+		System.out.println("After");
+	}
 
 If you have any suggestion contact me on discord: inconito001#4582
 You want to reward me ? paypal.me/inconito001
