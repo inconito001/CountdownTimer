@@ -20,3 +20,6 @@ How it works ?
 	}
   
   
+
+If you have any suggestion contact me on discord: inconito001#4582
+You want to reward me ? paypal.me/inconito001
